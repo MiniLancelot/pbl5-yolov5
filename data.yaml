@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 17
+names: ['Ban ha nam', 'Ca gai leo', 'Cu gung', 'Dau tam', 'Hoac huong', 'Hung chanh', 'La lot', 'Lat gung', 'Nhan tran', 'Qua nhot', 'Qua quyt', 'Rau meo', 'Vong vang', 'cam thao', 'hoa sim', 'la san day', 'tao tau']
+
+roboflow:
+  workspace: pbl5-l7n85
+  project: pbl5-twsfi
+  version: 24
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pbl5-l7n85/pbl5-twsfi/dataset/24
